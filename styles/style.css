@@ -14,20 +14,28 @@ body{
 h1{
     font-family: var(--heading-font-family)
 }
-.hero h2{
-    font-family: var(--secondary-font-family);
-    font-weight: 500;
-    font-weight: bolder;
-}
+
 p{
     font-family: var(--default-font-family)
 }
-
+img{
+    width: 400px;
+}
+footer{
+    text-align: center;
+    font-size: 40px;
+      
+}
 .hero {
     background-color: var(--hero-color);
     text-align: center;
     padding: 110px 20px;
     margin: 50px
+}
+.hero h2{
+    font-family: var(--secondary-font-family);
+    font-weight: 500;
+    font-weight: bolder;
 }
 .btn-secondary {
     font-family: var(--default-font-family);
@@ -35,7 +43,6 @@ p{
     border: none;
     margin-right: 10px;
     margin-bottom: 10px;
-
 
 }
 .btn-light {
@@ -46,9 +53,10 @@ p{
     margin-bottom: 10px;
 } 
 
-footer{
+@media (max-width:960px) {
+.container {
     text-align: center;
-    font-size: 40px;
-    
-    
+    padding:0;
+}
+
 }
