@@ -70,6 +70,32 @@ footer {
     font-family: var(--heading-font-family);
     }
 
+
+.agrofuture-description h2{
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  text-align: center;
+}
+  .agrofuture-description p{
+    text-align: center;
+    justify-content: center;
+  }
+
+   .agrofuture-description p{
+    text-align: center;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .about-page-footer{
+    margin-top: 50px;
+  }
+
+  .buttons{
+    text-align: center;
+    margin-top: 50px;
+  }
+  
 @media (max-width: 960px) {
   .container {
     text-align: center;
