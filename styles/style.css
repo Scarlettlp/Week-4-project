@@ -71,7 +71,8 @@ footer {
     }
 
 .img-fluid {
-  width: 50%;
+  width: 60%;
+  height: auto;
   border-radius: 4px;
  
 
@@ -80,6 +81,7 @@ footer {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   text-align: center;
+  
 }
   .agrofuture-description p{
     text-align: center;
@@ -95,7 +97,7 @@ footer {
     font-family: var(--secondary-font-family);
     text-align: left;
     font-size: larger;
-    
+      
   }
 
   .about-page-footer{
