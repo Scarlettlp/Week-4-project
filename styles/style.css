@@ -125,6 +125,11 @@ footer {
 }
 
 
+.contact-us h1 {
+  font-family: var(--heading-font-family);
+}
+
+
    @media (max-width: 960px) {
   .container {
     text-align: center;
