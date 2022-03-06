@@ -147,6 +147,10 @@ footer .colaboration-box{
   font-family: var(--heading-font-family);
 }
 
+.github-link {
+  font-family: var(--default-font-family);
+  font-size: smaller;
+}
 
    @media (max-width: 960px) {
   .container {
