@@ -4,10 +4,16 @@
   --secondary-font-family: "Roboto Condensed", sans-serif;
   --default-font-family: "Open Sans Condensed", sans-serif;
 }
+html {
+  overflow-x: hidden;
+
+}
 
 body {
   background-color: FFFF;
   font-size: larger;
+  
+  position: relative;
 }
 
 h1 {
